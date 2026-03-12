@@ -3,20 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { getDictionary, isLocale, locales } from "@/lib/i18n";
+import { getDictionary, isLocale } from "@/lib/i18n";
 import { getNews } from "@/lib/content";
 import { formatContentDate } from "@/lib/date";
-
-export async function generateStaticParams() {
-  const results: { lang: string; slug: string }[] = [];
-  for (const lang of locales) {
-    const news = await getNews(lang);
-    for (const item of news) {
-      results.push({ lang, slug: item.slug });
-    }
-  }
-  return results;
-}
 
 export default async function NewsArticlePage({
   params,

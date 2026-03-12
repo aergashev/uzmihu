@@ -2,7 +2,9 @@ import type { Locale } from "@/lib/i18n";
 
 export function formatContentDate(date: string, locale: Locale): string {
   void locale;
-  const parsed = new Date(`${date}T00:00:00.000Z`);
+  const parsed = date.includes("T")
+    ? new Date(date)
+    : new Date(`${date}T00:00:00.000Z`);
 
   if (Number.isNaN(parsed.getTime())) {
     return date;

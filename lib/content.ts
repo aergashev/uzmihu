@@ -1,4 +1,5 @@
 import type { Locale } from "./i18n";
+import { prisma } from "@/lib/prisma";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -20,6 +21,28 @@ export interface NewsItem {
   image: string;
   content: string;
   category?: string;
+}
+
+function toNewsItem(post: {
+  id: number;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  image: string;
+  publishedAt: Date;
+  category: { name: string } | null;
+}): NewsItem {
+  return {
+    id: String(post.id),
+    slug: post.slug,
+    title: post.title,
+    excerpt: post.excerpt,
+    content: post.content,
+    image: post.image,
+    date: post.publishedAt.toISOString().slice(0, 10),
+    category: post.category?.name,
+  };
 }
 
 export interface Leader {
@@ -57,9 +80,20 @@ export async function getSlides(locale: Locale): Promise<Slide[]> {
 }
 
 export async function getNews(locale: Locale): Promise<NewsItem[]> {
-  if (locale === "ru") return (await import("@/content/ru/news.json")).default;
-  if (locale === "en") return (await import("@/content/en/news.json")).default;
-  return (await import("@/content/uz/news.json")).default;
+  const posts = await prisma.post.findMany({
+    where: {
+      locale,
+      published: true,
+    },
+    include: {
+      category: true,
+    },
+    orderBy: {
+      publishedAt: "desc",
+    },
+  });
+
+  return posts.map(toNewsItem);
 }
 
 export async function getLeadership(locale: Locale): Promise<Leader[]> {
