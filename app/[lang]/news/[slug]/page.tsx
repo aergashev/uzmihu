@@ -5,6 +5,7 @@ import { ArrowLeft, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getDictionary, isLocale, locales } from "@/lib/i18n";
 import { getNews } from "@/lib/content";
+import { formatContentDate } from "@/lib/date";
 
 export async function generateStaticParams() {
   const results: { lang: string; slug: string }[] = [];
@@ -30,10 +31,7 @@ export default async function NewsArticlePage({
   if (!article) notFound();
 
   const d = dict.news;
-  const formattedDate = new Date(article.date).toLocaleDateString(
-    lang === "ru" ? "ru-RU" : lang === "en" ? "en-US" : "uz-UZ",
-    { year: "numeric", month: "long", day: "numeric" },
-  );
+  const formattedDate = formatContentDate(article.date, lang);
 
   return (
     <>

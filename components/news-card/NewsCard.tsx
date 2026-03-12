@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Calendar } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { formatContentDate } from "@/lib/date";
+import type { Locale } from "@/lib/i18n";
 
 interface NewsCardProps {
   slug: string;
@@ -9,7 +11,7 @@ interface NewsCardProps {
   excerpt: string;
   date: string;
   image: string;
-  lang: string;
+  lang: Locale;
   readMoreLabel: string;
 }
 
@@ -22,10 +24,7 @@ export function NewsCard({
   lang,
   readMoreLabel,
 }: NewsCardProps) {
-  const formattedDate = new Date(date).toLocaleDateString(
-    lang === "ru" ? "ru-RU" : lang === "en" ? "en-US" : "uz-UZ",
-    { year: "numeric", month: "long", day: "numeric" },
-  );
+  const formattedDate = formatContentDate(date, lang);
 
   return (
     <Link href={`/${lang}/news/${slug}`} className="group block h-full">

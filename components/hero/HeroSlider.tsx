@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight, Calendar } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { formatContentDate } from "@/lib/date";
+import type { Locale } from "@/lib/i18n";
 
 export interface Slide {
   id: string | number;
@@ -17,7 +19,7 @@ export interface Slide {
 
 interface HeroSliderProps {
   slides: Slide[];
-  lang: string;
+  lang: Locale;
   learnMoreLabel: string;
 }
 
@@ -38,12 +40,6 @@ export function HeroSlider({ slides, lang, learnMoreLabel }: HeroSliderProps) {
   }, [slides.length]);
 
   if (!slides.length) return null;
-
-  const formatDate = (d: string) =>
-    new Date(d).toLocaleDateString(
-      lang === "ru" ? "ru-RU" : lang === "en" ? "en-US" : "uz-UZ",
-      { year: "numeric", month: "long", day: "numeric" },
-    );
 
   return (
     <div className="relative h-[72vh] min-h-120 max-h-195 w-full overflow-hidden bg-[#163a7d]">
@@ -83,7 +79,7 @@ export function HeroSlider({ slides, lang, learnMoreLabel }: HeroSliderProps) {
             >
               <div className="flex items-center gap-2 text-blue-200 text-sm mb-3">
                 <Calendar size={14} />
-                <span>{formatDate(slide.date)}</span>
+                <span>{formatContentDate(slide.date, lang)}</span>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-[2.5rem] font-bold leading-tight mb-3">
                 {slide.title}

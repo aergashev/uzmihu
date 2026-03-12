@@ -5,15 +5,9 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { HeroSlider } from "@/components/hero/HeroSlider";
 import { NewsCard } from "@/components/news-card/NewsCard";
-import { LeadershipCard } from "@/components/leadership-card/LeadershipCard";
+import { GlobalCooperationSection } from "@/components/sections/global-cooperation";
 import { getDictionary, isLocale } from "@/lib/i18n";
-import {
-  getSlides,
-  getNews,
-  getLeadership,
-  getPartners,
-  getGallery,
-} from "@/lib/content";
+import { getSlides, getNews, getPartners, getGallery } from "@/lib/content";
 
 export default async function HomePage({
   params,
@@ -22,11 +16,10 @@ export default async function HomePage({
 }) {
   const { lang } = await params;
   if (!isLocale(lang)) notFound();
-  const [dict, slides, news, leaders, partners, gallery] = await Promise.all([
+  const [dict, slides, news, partners, gallery] = await Promise.all([
     getDictionary(lang),
     getSlides(lang),
     getNews(lang),
-    getLeadership(lang),
     getPartners(lang),
     getGallery(lang),
   ]);
@@ -187,39 +180,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* ─── Leadership ──────────────────────────────────────────── */}
-      <section className="py-16 bg-[#F5F6F8]">
-        <div className="container mx-auto px-4 max-w-7xl">
-          <div className="flex items-center justify-between mb-10">
-            <div>
-              <p className="text-[#1E4FA3] text-sm font-semibold uppercase tracking-widest mb-1">
-                {s.leadershipSection.subtitle}
-              </p>
-              <h2 className="text-3xl font-bold text-[#1A1A1A]">
-                {s.leadershipSection.title}
-              </h2>
-            </div>
-            <Link
-              href={`/${lang}/about`}
-              className="hidden sm:flex items-center gap-1.5 text-[#1E4FA3] font-semibold text-sm hover:gap-2.5 transition-all"
-            >
-              {s.leadershipSection.viewAll}
-              <ArrowRight size={16} />
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5">
-            {leaders.slice(0, 3).map((leader) => (
-              <LeadershipCard
-                key={leader.id}
-                name={leader.name}
-                position={leader.position}
-                bio={leader.bio}
-                image={leader.image}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
+      <GlobalCooperationSection lang={lang} />
 
       {/* ─── Partners ────────────────────────────────────────────── */}
       <section className="py-16 bg-white">
