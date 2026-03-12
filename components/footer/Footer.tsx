@@ -7,6 +7,17 @@ interface FooterProps {
   lang: Locale;
 }
 
+const socialLinks = [
+  { label: "Telegram", href: "https://t.me/mihu_uz", icon: "✈" },
+  { label: "Instagram", href: "https://www.instagram.com/mihu_uz", icon: "📷" },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61578190050763",
+    icon: "👥",
+  },
+  { label: "YouTube", href: "https://www.youtube.com/@MIHU_UZ", icon: "▶" },
+];
+
 export function Footer({ dict, lang }: FooterProps) {
   const navLinks = [
     { href: `/${lang}`, label: dict.nav.home },
@@ -20,7 +31,7 @@ export function Footer({ dict, lang }: FooterProps) {
   return (
     <footer className="bg-[#1E4FA3] text-white">
       <div className="container mx-auto px-4 max-w-7xl py-14">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2.5 mb-4">
@@ -91,6 +102,26 @@ export function Footer({ dict, lang }: FooterProps) {
               </div>
             </div>
           </div>
+          {/* Social */}
+          <div>
+            <h3 className="font-semibold text-white text-base mb-5">
+              {dict.footer.social}
+            </h3>
+            <div className="flex flex-col gap-3">
+              {socialLinks.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2.5 text-blue-100 hover:text-white transition-colors text-sm"
+                >
+                  <span className="text-base w-5 text-center">{s.icon}</span>
+                  {s.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -100,7 +131,7 @@ export function Footer({ dict, lang }: FooterProps) {
           <span>
             © {new Date().getFullYear()} ANEC Uzbekistan. {dict.footer.rights}.
           </span>
-          <span className="text-blue-300 text-xs">info@uzmihu.uz</span>
+          <span className="text-blue-300 text-xs">info@uzmihu.com</span>
         </div>
       </div>
     </footer>

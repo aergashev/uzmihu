@@ -11,6 +11,25 @@
   "hero": {
     "learnMore": "Learn More"
   },
+  "stats": {
+    "title": "Key Achievements",
+    "investments": "$595 mln.",
+    "investmentsLabel": "Attracted Investments",
+    "projects": "12",
+    "projectsLabel": "Investment Projects",
+    "meetings": "1,000+",
+    "meetingsLabel": "Meetings with Foreign Entrepreneurs",
+    "agreements": "50+",
+    "agreementsLabel": "Cooperation Agreements Signed",
+    "members": "2,000+",
+    "membersLabel": "Member Entrepreneurs",
+    "volunteers": "2,500+",
+    "volunteersLabel": "Volunteers",
+    "seminars": "50+",
+    "seminarsLabel": "Educational Seminars",
+    "countries": "~20",
+    "countriesLabel": "Countries Represented"
+  },
   "home": {
     "latestNews": "Latest News",
     "readMore": "Read More",
@@ -18,11 +37,11 @@
     "aboutSection": {
       "badge": "About Us",
       "title": "Association of National Economic Cooperation of Uzbekistan",
-      "description": "The Association carries out activities aimed at developing the economy of Uzbekistan, strengthening international cooperation and attracting investments. We serve as a bridge between the public and private sectors.",
+      "description": "Founded in May 2025, the Association operates as a platform for strengthening economic cooperation, attracting investment, supporting entrepreneurship, and expanding Uzbekistan's international economic partnerships.",
       "mission": "Mission",
-      "missionText": "Protecting national economic interests and developing international cooperation",
+      "missionText": "Expanding national export potential and developing international cooperation",
       "activity": "Activities",
-      "activityText": "Attracting investments, strengthening trade relations and supporting economic reforms",
+      "activityText": "Attracting investments, strengthening trade relations and supporting entrepreneurs",
       "cta": "Read More"
     },
     "leadershipSection": {
@@ -51,7 +70,8 @@
     "missionTitle": "Mission & Goals",
     "goalsTitle": "Main Goals",
     "activitiesTitle": "Areas of Activity",
-    "leadershipTitle": "Leadership"
+    "leadershipTitle": "Leadership",
+    "statsTitle": "Association Achievements"
   },
   "news": {
     "title": "News",
@@ -60,15 +80,24 @@
     "share": "Share",
     "back": "Back to News",
     "noNews": "No news found",
-    "publishedOn": "Published on"
+    "publishedOn": "Published on",
+    "allCategories": "All",
+    "categories": {
+      "association_activities": "Association Activities",
+      "cooperation_meetings": "Cooperation Meetings",
+      "investment": "Investment",
+      "seminars": "Seminars",
+      "international_partnerships": "International Partnerships",
+      "economic_initiatives": "Economic Initiatives"
+    }
   },
   "partnership": {
     "title": "Partnership",
     "subtitle": "Partners and members of the association",
-    "strategicTitle": "Strategic Partners",
-    "strategicDesc": "Strategic partnership with government and international organizations",
-    "membersTitle": "Association Members",
-    "membersDesc": "Organizations and enterprises participating in the association's activities",
+    "strategicTitle": "National Partners",
+    "strategicDesc": "Strategic partnerships with government agencies, national organizations, and international institutions",
+    "membersTitle": "International Partners",
+    "membersDesc": "Partners in international trade and investment activities",
     "visitWebsite": "Visit Website"
   },
   "gallery": {
@@ -82,11 +111,11 @@
     "title": "Contact",
     "subtitle": "Get in Touch",
     "addressTitle": "Address",
-    "addressValue": "Tashkent, Mustaqillik Street, 5",
+    "addressValue": "Uzbekistan, Tashkent, Yashnabad district, Mahtumquli Street 79, City Plaza, 8th floor",
     "phoneTitle": "Phone",
-    "phoneValue": "+998 71 239 88 88",
+    "phoneValue": "+998 95 760 0000",
     "emailTitle": "Email",
-    "emailValue": "info@uzmihu.uz",
+    "emailValue": "info@uzmihu.com",
     "hoursTitle": "Working Hours",
     "hoursValue": "Monday–Friday: 9:00 AM – 6:00 PM",
     "formTitle": "Contact Form",
@@ -95,10 +124,11 @@
     "namePlaceholder": "e.g. John Smith",
     "organizationLabel": "Organization",
     "organizationPlaceholder": "e.g. ABC Company Ltd.",
-    "emailLabel": "Email Address",
+    "emailLabel": "Email Address (optional)",
     "emailPlaceholder": "example@mail.com",
     "phoneLabel": "Phone Number",
     "phonePlaceholder": "+998 90 123 45 67",
+    "phoneInvalid": "Invalid phone format. Only + and digits allowed (minimum 7 digits)",
     "messageLabel": "Message",
     "messagePlaceholder": "Write your question or suggestion...",
     "submit": "Send Message",
@@ -109,12 +139,13 @@
     "backBtn": "Back"
   },
   "footer": {
-    "description": "Association of National Economic Cooperation of Uzbekistan — an organization supporting national economic development and international cooperation.",
+    "description": "Association of National Economic Cooperation of Uzbekistan — a platform for strengthening economic cooperation, attracting investments, and developing international partnerships.",
     "rights": "All rights reserved",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Information",
-    "address": "Tashkent, Mustaqillik Street, 5",
-    "phone": "+998 71 239 88 88",
-    "email": "info@uzmihu.uz"
+    "social": "Social Media",
+    "address": "Tashkent, Yashnabad, Mahtumquli St. 79, City Plaza, 8th floor",
+    "phone": "+998 95 760 0000",
+    "email": "info@uzmihu.com"
   }
 }

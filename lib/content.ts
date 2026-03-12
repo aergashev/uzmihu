@@ -19,6 +19,7 @@ export interface NewsItem {
   date: string;
   image: string;
   content: string;
+  category?: string;
 }
 
 export interface Leader {

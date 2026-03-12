@@ -11,18 +11,37 @@
   "hero": {
     "learnMore": "Batafsil"
   },
+  "stats": {
+    "title": "Asosiy ko'rsatkichlar",
+    "investments": "$595 mln.",
+    "investmentsLabel": "Jalb etilgan investitsiyalar",
+    "projects": "12",
+    "projectsLabel": "Investitsion loyihalar",
+    "meetings": "1000+",
+    "meetingsLabel": "Xorijiy tadbirkorlar bilan uchrashuvlar",
+    "agreements": "50+",
+    "agreementsLabel": "Hamkorlik kelishuvlari",
+    "members": "2000+",
+    "membersLabel": "A'zo tadbirkorlar",
+    "volunteers": "2500+",
+    "volunteersLabel": "Ko'ngillilar",
+    "seminars": "50+",
+    "seminarsLabel": "Ta'lim seminarlari",
+    "countries": "~20",
+    "countriesLabel": "Mamlakat vakillari"
+  },
   "home": {
     "latestNews": "So'nggi yangiliklar",
     "readMore": "Batafsil",
     "viewAll": "Hammasini ko'rish",
     "aboutSection": {
       "badge": "Biz haqimizda",
-      "title": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi",
-      "description": "Assotsiatsiya O'zbekiston iqtisodiyotini rivojlantirishga, xalqaro hamkorlikni kuchaytirishga va investitsiyalarni jalb etishga qaratilgan faoliyat olib boradi. Biz davlat va xususiy sektor o'rtasidagi ko'prik vazifasini bajaramiz.",
+      "title": "O'zbekiston Milliy Iqtisodiy Hamkorlik Uyushmasi",
+      "description": "Uyushma 2025-yil may oyida tashkil etilgan bo'lib, iqtisodiy hamkorlikni mustahkamlash, investitsiyalarni jalb etish, tadbirkorlikni qo'llab-quvvatlash va O'zbekistonning xalqaro iqtisodiy sherikligini kengaytirish platformasi sifatida faoliyat yuritadi.",
       "mission": "Missiya",
-      "missionText": "Milliy iqtisodiy manfaatlarni himoya qilish va xalqaro hamkorlikni rivojlantirish",
+      "missionText": "Milliy eksport salohiyatini kengaytirish va xalqaro hamkorlikni rivojlantirish",
       "activity": "Faoliyat",
-      "activityText": "Investitsiyalarni jalb etish, savdo munosabatlarini kuchaytirish va iqtisodiy islohotlarni qo'llab-quvvatlash",
+      "activityText": "Investitsiyalarni jalb etish, savdo munosabatlarini kuchaytirish va tadbirkorlarni qo'llab-quvvatlash",
       "cta": "Batafsil o'qish"
     },
     "leadershipSection": {
@@ -47,11 +66,12 @@
   },
   "about": {
     "title": "Biz haqimizda",
-    "subtitle": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi",
+    "subtitle": "O'zbekiston Milliy Iqtisodiy Hamkorlik Uyushmasi",
     "missionTitle": "Missiya va Maqsadlar",
     "goalsTitle": "Asosiy maqsadlar",
     "activitiesTitle": "Faoliyat yo'nalishlari",
-    "leadershipTitle": "Rahbariyat"
+    "leadershipTitle": "Rahbariyat",
+    "statsTitle": "Uyushma natijalari"
   },
   "news": {
     "title": "Yangiliklar",
@@ -60,15 +80,24 @@
     "share": "Ulashish",
     "back": "Yangiliklarga qaytish",
     "noNews": "Yangiliklar topilmadi",
-    "publishedOn": "Nashr etildi"
+    "publishedOn": "Nashr etildi",
+    "allCategories": "Hammasi",
+    "categories": {
+      "association_activities": "Assotsiatsiya faoliyati",
+      "cooperation_meetings": "Hamkorlik uchrashuvlari",
+      "investment": "Investitsiyalar",
+      "seminars": "Seminarlar",
+      "international_partnerships": "Xalqaro hamkorlik",
+      "economic_initiatives": "Iqtisodiy tashabbuslar"
+    }
   },
   "partnership": {
     "title": "Hamkorlik",
     "subtitle": "Assotsiatsiyaning hamkorlari va a'zolari",
-    "strategicTitle": "Strategik hamkorlar",
-    "strategicDesc": "Hukumat va xalqaro tashkilotlar bilan strategik sheriklik",
-    "membersTitle": "Assotsiatsiya a'zolari",
-    "membersDesc": "Assotsiatsiya faoliyatida qatnashadigan tashkilotlar va korxonalar",
+    "strategicTitle": "Milliy hamkorlar",
+    "strategicDesc": "Davlat idoralari, milliy tashkilotlar va xalqaro institutlar bilan strategik sheriklik",
+    "membersTitle": "Xalqaro hamkorlar",
+    "membersDesc": "Xalqaro savdo va investitsiya yo'nalishidagi hamkorlar",
     "visitWebsite": "Saytga o'tish"
   },
   "gallery": {
@@ -82,11 +111,11 @@
     "title": "Aloqa",
     "subtitle": "Biz bilan bog'laning",
     "addressTitle": "Manzil",
-    "addressValue": "Toshkent sh., Mustaqillik ko'chasi, 5-uy",
+    "addressValue": "O'zbekiston, Toshkent shahri, Yashnabod tumani, Mahtumquli ko'chasi 79, City Plaza 8-qavat",
     "phoneTitle": "Telefon",
-    "phoneValue": "+998 71 239 88 88",
+    "phoneValue": "+998 95 760 0000",
     "emailTitle": "Elektron pochta",
-    "emailValue": "info@uzmihu.uz",
+    "emailValue": "info@uzmihu.com",
     "hoursTitle": "Ish vaqti",
     "hoursValue": "Dushanba–Juma: 9:00 – 18:00",
     "formTitle": "Murojaat formi",
@@ -95,10 +124,11 @@
     "namePlaceholder": "Misol: Alisher Karimov",
     "organizationLabel": "Tashkilot nomi",
     "organizationPlaceholder": "Misol: Karimov va Sheriklari MChJ",
-    "emailLabel": "Elektron pochta",
+    "emailLabel": "Elektron pochta (ixtiyoriy)",
     "emailPlaceholder": "example@mail.com",
     "phoneLabel": "Telefon raqami",
     "phonePlaceholder": "+998 90 123 45 67",
+    "phoneInvalid": "Telefon raqami noto'g'ri. Faqat + va raqamlar, kamida 7 ta raqam kiritilishi kerak",
     "messageLabel": "Xabar",
     "messagePlaceholder": "Savolingizni yoki taklifingizni yozing...",
     "submit": "Yuborish",
@@ -109,12 +139,13 @@
     "backBtn": "Orqaga"
   },
   "footer": {
-    "description": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi — milliy iqtisodiy rivojlanish va xalqaro hamkorlikni qo'llab-quvvatlash tashkiloti.",
+    "description": "O'zbekiston Milliy Iqtisodiy Hamkorlik Uyushmasi — iqtisodiy hamkorlikni mustahkamlash, investitsiyalarni jalb etish va xalqaro sheriklikni rivojlantirishga qaratilgan platforma.",
     "rights": "Barcha huquqlar himoyalangan",
     "quickLinks": "Tezkor havolalar",
     "contactInfo": "Aloqa ma'lumotlari",
-    "address": "Toshkent sh., Mustaqillik ko'chasi, 5-uy",
-    "phone": "+998 71 239 88 88",
-    "email": "info@uzmihu.uz"
+    "social": "Ijtimoiy tarmoqlar",
+    "address": "Toshkent, Yashnabod, Mahtumquli ko'chasi 79, City Plaza 8-qavat",
+    "phone": "+998 95 760 0000",
+    "email": "info@uzmihu.com"
   }
 }

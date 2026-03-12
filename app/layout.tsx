@@ -22,6 +22,10 @@ export const metadata: Metadata = {
     "Official multilingual website of the Association of National Economic Cooperation of Uzbekistan.",
   applicationName: "ANEC Uzbekistan",
   metadataBase: new URL("https://uzmihu.uz"),
+  icons: {
+    icon: "/logo/favicon.svg",
+    shortcut: "/logo/favicon.svg",
+  },
 };
 
 export default function RootLayout({

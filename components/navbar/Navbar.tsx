@@ -7,6 +7,7 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { locales, type Locale, type Dictionary } from "@/lib/i18n";
+import { Logo } from "@/components/logo";
 
 interface NavbarProps {
   dict: Dictionary;
@@ -51,24 +52,9 @@ export function Navbar({ dict, lang }: NavbarProps) {
       }`}
     >
       <div className="container mx-auto px-4 max-w-7xl">
-        <div className="flex h-16 items-center justify-between gap-4">
+        <div className="flex h-20 items-center justify-between gap-4">
           {/* Logo */}
-          <Link
-            href={`/${lang}`}
-            className="flex items-center gap-2.5 shrink-0"
-          >
-            <div className="w-9 h-9 rounded bg-[#1E4FA3] flex items-center justify-center">
-              <span className="text-white font-bold text-sm leading-none">
-                UZ
-              </span>
-            </div>
-            <div className="hidden sm:block leading-tight">
-              <p className="font-bold text-[#1E4FA3] text-sm">ANEC</p>
-              <p className="text-[10px] text-gray-500 uppercase tracking-wide">
-                Uzbekistan
-              </p>
-            </div>
-          </Link>
+          <Logo lang={lang} />
 
           {/* Desktop nav */}
           <nav className="hidden lg:flex items-center gap-0.5">
@@ -123,14 +109,7 @@ export function Navbar({ dict, lang }: NavbarProps) {
               </SheetTrigger>
               <SheetContent side="right" className="w-72 pt-14 px-0">
                 <div className="px-4 mb-6">
-                  <div className="flex items-center gap-2">
-                    <div className="w-8 h-8 rounded bg-[#1E4FA3] flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">UZ</span>
-                    </div>
-                    <span className="font-bold text-[#1E4FA3] text-sm">
-                      ANEC Uzbekistan
-                    </span>
-                  </div>
+                  <Logo lang={lang} />
                 </div>
                 <nav className="flex flex-col">
                   {navLinks.map((link) => (

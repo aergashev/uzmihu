@@ -148,6 +148,45 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* ─── Stats Section ───────────────────────────────────────── */}
+      <section className="py-14 bg-[#1E4FA3]">
+        <div className="container mx-auto px-4 max-w-7xl">
+          <h2 className="text-center text-white text-2xl font-bold mb-10">
+            {dict.stats.title}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
+            {[
+              {
+                value: dict.stats.investments,
+                label: dict.stats.investmentsLabel,
+              },
+              { value: dict.stats.projects, label: dict.stats.projectsLabel },
+              { value: dict.stats.meetings, label: dict.stats.meetingsLabel },
+              {
+                value: dict.stats.agreements,
+                label: dict.stats.agreementsLabel,
+              },
+              { value: dict.stats.members, label: dict.stats.membersLabel },
+              {
+                value: dict.stats.volunteers,
+                label: dict.stats.volunteersLabel,
+              },
+              { value: dict.stats.seminars, label: dict.stats.seminarsLabel },
+              { value: dict.stats.countries, label: dict.stats.countriesLabel },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center">
+                <p className="text-2xl sm:text-3xl font-extrabold text-white mb-1">
+                  {stat.value}
+                </p>
+                <p className="text-blue-200 text-xs sm:text-sm leading-snug">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── Leadership ──────────────────────────────────────────── */}
       <section className="py-16 bg-[#F5F6F8]">
         <div className="container mx-auto px-4 max-w-7xl">

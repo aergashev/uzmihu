@@ -22,7 +22,7 @@ export default async function LangLayout({
   return (
     <>
       <Navbar dict={dict} lang={lang} />
-      <main className="min-h-screen pt-16">{children}</main>
+      <main className="min-h-screen pt-20">{children}</main>
       <Footer dict={dict} lang={lang} />
     </>
   );

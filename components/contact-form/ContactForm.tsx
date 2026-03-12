@@ -13,20 +13,41 @@ export function ContactForm({ dict }: ContactFormProps) {
     name: "",
     organization: "",
     email: "",
-    phone: "",
+    phone: "+998",
     message: "",
   });
   const [status, setStatus] = useState<
     "idle" | "loading" | "success" | "error"
   >("idle");
+  const [errorText, setErrorText] = useState("");
+  const [phoneError, setPhoneError] = useState("");
 
   const handleChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
-  ) => setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  ) => {
+    if (e.target.name === "phone") {
+      // Allow only + at the start, then digits only
+      let val = e.target.value.replace(/[^\d+]/g, "");
+      if (val.indexOf("+") > 0) val = val.replace(/\+/g, "");
+      setForm((prev) => ({ ...prev, phone: val }));
+      if (phoneError) setPhoneError("");
+      return;
+    }
+    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  };
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setStatus("loading");
+    setErrorText("");
+    setPhoneError("");
+    // Validate phone: must have at least 7 digits
+    const digits = form.phone.replace(/\D/g, "");
+    if (!form.phone || digits.length < 7) {
+      setPhoneError(dict.phoneInvalid);
+      setStatus("idle");
+      return;
+    }
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
@@ -34,17 +55,26 @@ export function ContactForm({ dict }: ContactFormProps) {
         body: JSON.stringify(form),
       });
       const data = await res.json();
-      setStatus(data.success ? "success" : "error");
-      if (data.success)
+      if (res.ok && data.success) {
+        setStatus("success");
         setForm({
           name: "",
           organization: "",
           email: "",
-          phone: "",
+          phone: "+998",
           message: "",
         });
+      } else {
+        setStatus("error");
+        setErrorText(
+          typeof data?.error === "string" && data.error.length > 0
+            ? data.error
+            : dict.errorMsg,
+        );
+      }
     } catch {
       setStatus("error");
+      setErrorText(dict.errorMsg);
     }
   };
 
@@ -103,7 +133,7 @@ export function ContactForm({ dict }: ContactFormProps) {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            {dict.emailLabel} <span className="text-red-500">*</span>
+            {dict.emailLabel}
           </label>
           <input
             type="email"
@@ -111,13 +141,12 @@ export function ContactForm({ dict }: ContactFormProps) {
             value={form.email}
             onChange={handleChange}
             placeholder={dict.emailPlaceholder}
-            required
             className={inputClass}
           />
         </div>
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1.5">
-            {dict.phoneLabel}
+            {dict.phoneLabel} <span className="text-red-500">*</span>
           </label>
           <input
             type="tel"
@@ -125,8 +154,12 @@ export function ContactForm({ dict }: ContactFormProps) {
             value={form.phone}
             onChange={handleChange}
             placeholder={dict.phonePlaceholder}
-            className={inputClass}
+            required
+            className={`${inputClass} ${phoneError ? "border-red-400 focus:ring-red-300/40 focus:border-red-400" : ""}`}
           />
+          {phoneError && (
+            <p className="text-red-500 text-xs mt-1">{phoneError}</p>
+          )}
         </div>
       </div>
 
@@ -147,7 +180,7 @@ export function ContactForm({ dict }: ContactFormProps) {
 
       {status === "error" && (
         <p className="text-red-600 text-sm bg-red-50 px-3 py-2 rounded-lg">
-          {dict.errorMsg}
+          {errorText || dict.errorMsg}
         </p>
       )}
 

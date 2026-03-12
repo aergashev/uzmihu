@@ -81,7 +81,7 @@ export default async function ContactPage({
               <div className="bg-white rounded-2xl overflow-hidden shadow-sm h-64 border border-gray-100">
                 <iframe
                   title="ANEC Uzbekistan office location"
-                  src="https://www.google.com/maps?q=Tashkent%20Mustaqillik%20Street%205&z=15&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.808672007852!2d69.31812089582021!3d41.30468899641235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2bb480a54b6d83b3%3A0x5dffa54331724b7f!2sNational%20Association%20of%20Economic%20Cooperation%20of%20Uzbekistan!5e0!3m2!1sen!2s!4v1773310768349!5m2!1sen!2s"
                   className="h-full w-full border-0"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

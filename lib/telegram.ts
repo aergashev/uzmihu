@@ -6,28 +6,33 @@ export interface ContactFormData {
   message: string;
 }
 
-function escapeMarkdown(text: string): string {
-  return String(text).replace(/[_*[\]()~`>#+\-=|{}.!\\]/g, "\\$&");
+interface TelegramSendResult {
+  ok: boolean;
+  error?: string;
 }
 
 export async function sendTelegramMessage(
   data: ContactFormData,
-): Promise<boolean> {
+): Promise<TelegramSendResult> {
   const botToken = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   if (!botToken || !chatId) {
     console.error("Telegram bot token or chat ID not configured");
-    return false;
+    return {
+      ok: false,
+      error:
+        "Telegram configuration missing (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID)",
+    };
   }
 
   const text =
-    `🔔 *Yangi murojaat / Новое обращение / New Contact Request*\n\n` +
-    `👤 *Ism / Имя / Name:* ${escapeMarkdown(data.name)}\n` +
-    `🏢 *Tashkilot / Организация / Org:* ${escapeMarkdown(data.organization)}\n` +
-    `📧 *Email:* ${escapeMarkdown(data.email)}\n` +
-    `📞 *Tel:* ${escapeMarkdown(data.phone)}\n\n` +
-    `💬 *Xabar / Сообщение / Message:*\n${escapeMarkdown(data.message)}`;
+    `New Contact Request\n\n` +
+    `Name: ${data.name}\n` +
+    `Organization: ${data.organization || "-"}\n` +
+    `Email: ${data.email}\n` +
+    `Phone: ${data.phone || "-"}\n\n` +
+    `Message:\n${data.message}`;
 
   try {
     const response = await fetch(
@@ -38,14 +43,23 @@ export async function sendTelegramMessage(
         body: JSON.stringify({
           chat_id: chatId,
           text,
-          parse_mode: "MarkdownV2",
         }),
       },
     );
     const result = await response.json();
-    return result.ok === true;
+
+    if (!response.ok || result.ok !== true) {
+      const description =
+        typeof result?.description === "string"
+          ? result.description
+          : "Unknown Telegram API error";
+      console.error("Telegram API error:", description);
+      return { ok: false, error: description };
+    }
+
+    return { ok: true };
   } catch (error) {
     console.error("Failed to send Telegram message:", error);
-    return false;
+    return { ok: false, error: "Network error while contacting Telegram" };
   }
 }

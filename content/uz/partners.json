@@ -1,86 +1,93 @@
 [
   {
     "id": "1",
-    "name": "O'zbekiston Investitsiyalar va Tashqi Savdo Vazirligi",
+    "name": "O‘zbekiston Savdo-Sanoat Palatasi",
     "category": "strategic",
-    "description": "Investitsiyalar va tashqi savdoni rivojlantirishga mas'ul asosiy davlat idorasi",
-    "website": "https://mift.uz"
-  },
-  {
-    "id": "2",
-    "name": "O'zbekiston Iqtisodiyot va Moliya Vazirligi",
-    "category": "strategic",
-    "description": "Mamlakatning iqtisodiy siyosatini belgilovchi va moliyaviy barqarorlikni ta'minlovchi vazirlik",
-    "website": "https://mf.uz"
-  },
-  {
-    "id": "3",
-    "name": "O'zbekiston Milliy Savdo Palatasi",
-    "category": "strategic",
-    "description": "Tadbirkorlikni qo'llab-quvvatlash va savdo munosabatlarini rivojlantirish milliy tashkiloti",
+    "description": "O‘zbekistonda tadbirkorlik va savdo-sanoat munosabatlarini rivojlantiruvchi asosiy milliy tashkilot",
     "website": "https://chamber.uz"
   },
   {
-    "id": "4",
-    "name": "Jahon Banki O'zbekiston Vakolatxonasi",
+    "id": "2",
+    "name": "O‘zbekiston Eksportyorlar Assotsiatsiyasi",
     "category": "strategic",
-    "description": "O'zbekistonda iqtisodiy rivojlanish loyihalarini qo'llab-quvvatlovchi xalqaro moliyaviy institutning mahalliy vakolatxonasi",
-    "website": "https://worldbank.org"
+    "description": "O‘zbekiston eksport salohiyatini rivojlantirish va eksportyorlarni qo‘llab-quvvatlash tashkiloti",
+    "website": "#"
+  },
+  {
+    "id": "3",
+    "name": "O‘zbekiston Ish Beruvchilar Konfederatsiyasi",
+    "category": "strategic",
+    "description": "O‘zbekistonda ish beruvchilar manfaatlarini himoya qiluvchi konfederatsiya",
+    "website": "#"
+  },
+  {
+    "id": "4",
+    "name": "O‘zbekiston Ko‘ngillilar Assotsiatsiyasi",
+    "category": "strategic",
+    "description": "O‘zbekistonda ko‘ngillilik harakatini rivojlantirish va koordinatsiya qilish tashkiloti",
+    "website": "#"
   },
   {
     "id": "5",
-    "name": "UNDP O'zbekiston",
+    "name": "O‘zbekiston Respublikasi Oila va Ayollar Qo‘mitasi",
     "category": "strategic",
-    "description": "Barqaror rivojlanish va iqtisodiy imkoniyatlarni kengaytirish bo'yicha BMT dasturining O'zbekistondagi vakolatxonasi",
-    "website": "https://undp.org/uzbekistan"
+    "description": "Oilaviy qadriyatlar va ayollar manfaatlarini himoya qiluvchi davlat qo‘mitasi",
+    "website": "#"
   },
   {
     "id": "6",
-    "name": "Yevroittifoq Delegatsiyasi O'zbekiston",
+    "name": "\"Madad\" NNT",
     "category": "strategic",
-    "description": "O'zbekiston bilan iqtisodiy va savdo aloqalarini rivojlantirish uchun ishlovchi YI vakolatxonasi",
-    "website": "https://eeas.europa.eu"
+    "description": "Ijtimoiy yordam va tadbirkorlikni qo‘llab-quvvatlash yo‘nalishida faoliyat yurituvchi nodavlat tashkilot",
+    "website": "#"
   },
   {
     "id": "7",
-    "name": "UzAuto Motors",
-    "category": "member",
-    "description": "O'zbekistonning avtomobil sanoatining yetakchi ishlab chiqaruvchisi",
-    "website": "https://uzautomotors.com"
-  },
-  {
-    "id": "8",
-    "name": "Almalyk MMK",
-    "category": "member",
-    "description": "O'rta Osiyoning eng yirik tog'-metallurgiya kombinatlaridan biri",
-    "website": "https://agmk.uz"
-  },
-  {
-    "id": "9",
     "name": "Hamkorbank",
-    "category": "member",
-    "description": "O'zbekistonning yetakchi tijorat banklaridan biri, kichik va o'rta biznesni kreditlashga ixtisoslashgan",
+    "category": "strategic",
+    "description": "O‘zbekistonning yetakchi tijorat banklaridan biri, kichik va o‘rta biznesni kreditlashga ixtisoslashgan",
     "website": "https://hamkorbank.uz"
   },
   {
+    "id": "8",
+    "name": "Andijon viloyat hokimligi",
+    "category": "strategic",
+    "description": "Andijon viloyatini boshqaruvchi hududiy davlat organi",
+    "website": "#"
+  },
+  {
+    "id": "9",
+    "name": "Farg‘ona viloyat hokimligi",
+    "category": "strategic",
+    "description": "Farg‘ona viloyatini boshqaruvchi hududiy davlat organi",
+    "website": "#"
+  },
+  {
     "id": "10",
-    "name": "Rezidor Hotel Group",
+    "name": "Guangzhou Modern Information Service Industry Association",
     "category": "member",
-    "description": "O'zbekistonda mehmondo'stlik sanoatini rivojlantirishga hissa qo'shayotgan xalqaro mehmonxona zanjiri",
+    "description": "Xitoydagi zamonaviy axborot va xizmat ko‘rsatish sanoatini rivojlantirishga hissa qo‘shuvchi xalqaro tashkilot",
     "website": "#"
   },
   {
     "id": "11",
-    "name": "Ucell Telekomunikatsiya",
+    "name": "CCPIT Guangzhou (International Chamber of Commerce)",
     "category": "member",
-    "description": "O'zbekistonda raqamli infratuzilmani rivojlantirayotgan yetakchi telekommunikatsiya operatori",
+    "description": "Xitoy Xalqaro Savdo Palatasi — Guanchjou vakolatxonasi, xalqaro savdo va investitsiyalarni rag‘batlantirishga ixtisoslashgan",
     "website": "#"
   },
   {
     "id": "12",
-    "name": "Textile Holding Uzbekistan",
+    "name": "Global Trade Expo Centre (GTEC)",
     "category": "member",
-    "description": "Paxta va to'qimachilik sanoatida yirik eksport qiluvchi holding kompaniya",
+    "description": "Xalqaro savdo ko‘rgazmasi va hamkorlik platformasi",
+    "website": "#"
+  },
+  {
+    "id": "13",
+    "name": "Hongqing Liefu Business Information Consulting Co., Ltd.",
+    "category": "member",
+    "description": "Xitoy biznes ma‘lumotlari va konsalting xizmatlarini taqdim etuvchi kompaniya",
     "website": "#"
   }
 ]

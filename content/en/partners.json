@@ -1,86 +1,93 @@
 [
   {
     "id": "1",
-    "name": "Ministry of Investment and Foreign Trade",
+    "name": "Chamber of Commerce and Industry of Uzbekistan",
     "category": "strategic",
-    "description": "The main government body responsible for developing investments and foreign trade",
-    "website": "https://mift.uz"
-  },
-  {
-    "id": "2",
-    "name": "Ministry of Economy and Finance",
-    "category": "strategic",
-    "description": "The ministry determining the country's economic policy and ensuring financial stability",
-    "website": "https://mf.uz"
-  },
-  {
-    "id": "3",
-    "name": "National Chamber of Commerce of Uzbekistan",
-    "category": "strategic",
-    "description": "National organization for supporting entrepreneurship and developing trade relations",
+    "description": "Main national organization developing entrepreneurship and trade-industrial relations in Uzbekistan",
     "website": "https://chamber.uz"
   },
   {
-    "id": "4",
-    "name": "World Bank Uzbekistan Office",
+    "id": "2",
+    "name": "Association of Exporters of Uzbekistan",
     "category": "strategic",
-    "description": "Local representative office of the international financial institution supporting economic development projects in Uzbekistan",
-    "website": "https://worldbank.org"
+    "description": "Organization for developing the export potential of Uzbek enterprises and supporting exporters",
+    "website": "#"
+  },
+  {
+    "id": "3",
+    "name": "Confederation of Employers of Uzbekistan",
+    "category": "strategic",
+    "description": "Confederation protecting the interests of employers in Uzbekistan",
+    "website": "#"
+  },
+  {
+    "id": "4",
+    "name": "Association of Volunteers of Uzbekistan",
+    "category": "strategic",
+    "description": "Organization developing the volunteer movement in Uzbekistan",
+    "website": "#"
   },
   {
     "id": "5",
-    "name": "UNDP Uzbekistan",
+    "name": "Family and Women Committee of the Republic of Uzbekistan",
     "category": "strategic",
-    "description": "Representative office of the UN program for sustainable development and expanding economic opportunities in Uzbekistan",
-    "website": "https://undp.org/uzbekistan"
+    "description": "State committee protecting family values and women's interests in Uzbekistan",
+    "website": "#"
   },
   {
     "id": "6",
-    "name": "EU Delegation to Uzbekistan",
+    "name": "NGO Madad",
     "category": "strategic",
-    "description": "EU representative office working to develop economic and trade relations with Uzbekistan",
-    "website": "https://eeas.europa.eu"
+    "description": "Non-governmental organization providing social support and entrepreneurship assistance",
+    "website": "#"
   },
   {
     "id": "7",
-    "name": "UzAuto Motors",
-    "category": "member",
-    "description": "Leading automobile manufacturer in Uzbekistan",
-    "website": "https://uzautomotors.com"
-  },
-  {
-    "id": "8",
-    "name": "Almalyk Mining & Metallurgical Complex",
-    "category": "member",
-    "description": "One of the largest mining and metallurgical complexes in Central Asia",
-    "website": "https://agmk.uz"
-  },
-  {
-    "id": "9",
     "name": "Hamkorbank",
-    "category": "member",
-    "description": "One of the leading commercial banks of Uzbekistan, specializing in lending to small and medium businesses",
+    "category": "strategic",
+    "description": "One of the leading commercial banks in Uzbekistan specializing in SME lending",
     "website": "https://hamkorbank.uz"
   },
   {
+    "id": "8",
+    "name": "Andijan Regional Administration",
+    "category": "strategic",
+    "description": "Regional government authority administering Andijan region",
+    "website": "#"
+  },
+  {
+    "id": "9",
+    "name": "Fergana Regional Administration",
+    "category": "strategic",
+    "description": "Regional government authority administering Fergana region",
+    "website": "#"
+  },
+  {
     "id": "10",
-    "name": "Rezidor Hotel Group",
+    "name": "Guangzhou Modern Information Service Industry Association",
     "category": "member",
-    "description": "International hotel chain contributing to the development of the hospitality industry in Uzbekistan",
+    "description": "International organization contributing to the development of modern information and service industries in Guangzhou",
     "website": "#"
   },
   {
     "id": "11",
-    "name": "Ucell Telecommunications",
+    "name": "CCPIT Guangzhou (International Chamber of Commerce)",
     "category": "member",
-    "description": "Leading telecommunications operator developing digital infrastructure in Uzbekistan",
+    "description": "China Council for the Promotion of International Trade, Guangzhou office",
     "website": "#"
   },
   {
     "id": "12",
-    "name": "Textile Holding Uzbekistan",
+    "name": "Global Trade Expo Centre (GTEC)",
     "category": "member",
-    "description": "Major holding company exporting cotton and textile industry products",
+    "description": "International platform for trade exhibitions and business cooperation",
+    "website": "#"
+  },
+  {
+    "id": "13",
+    "name": "Hongqing Liefu Business Information Consulting Co., Ltd.",
+    "category": "member",
+    "description": "Chinese company providing business information and consulting services",
     "website": "#"
   }
 ]
