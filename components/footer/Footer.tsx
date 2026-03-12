@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/i18n";
+import { Logo } from "@/components/logo";
 
 interface FooterProps {
   dict: Dictionary;
@@ -34,18 +35,8 @@ export function Footer({ dict, lang }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-10 h-10 rounded bg-white flex items-center justify-center shrink-0">
-                <span className="text-[#1E4FA3] font-bold text-sm">UZ</span>
-              </div>
-              <div>
-                <p className="font-bold text-white text-base leading-tight">
-                  ANEC
-                </p>
-                <p className="text-blue-200 text-xs uppercase tracking-wide">
-                  Uzbekistan
-                </p>
-              </div>
+            <div className="mb-4 rounded-md bg-white px-2 py-1.5 inline-flex">
+              <Logo lang={lang} />
             </div>
             <p className="text-blue-100 text-sm leading-relaxed max-w-xs">
               {dict.footer.description}
