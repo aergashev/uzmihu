@@ -3,10 +3,11 @@
 import { useState } from "react";
 import { NewsCard } from "@/components/news-card/NewsCard";
 import type { NewsItem } from "@/lib/content";
+import { Locale } from "@/lib/i18n";
 
 interface NewsFilterProps {
   news: NewsItem[];
-  lang: string;
+  lang: Locale;
   readMoreLabel: string;
   allLabel: string;
   noNewsLabel: string;
