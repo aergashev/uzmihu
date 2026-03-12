@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Ministry of Investment and Foreign Trade",
+    "category": "strategic",
+    "description": "The main government body responsible for developing investments and foreign trade",
+    "website": "https://mift.uz"
+  },
+  {
+    "id": "2",
+    "name": "Ministry of Economy and Finance",
+    "category": "strategic",
+    "description": "The ministry determining the country's economic policy and ensuring financial stability",
+    "website": "https://mf.uz"
+  },
+  {
+    "id": "3",
+    "name": "National Chamber of Commerce of Uzbekistan",
+    "category": "strategic",
+    "description": "National organization for supporting entrepreneurship and developing trade relations",
+    "website": "https://chamber.uz"
+  },
+  {
+    "id": "4",
+    "name": "World Bank Uzbekistan Office",
+    "category": "strategic",
+    "description": "Local representative office of the international financial institution supporting economic development projects in Uzbekistan",
+    "website": "https://worldbank.org"
+  },
+  {
+    "id": "5",
+    "name": "UNDP Uzbekistan",
+    "category": "strategic",
+    "description": "Representative office of the UN program for sustainable development and expanding economic opportunities in Uzbekistan",
+    "website": "https://undp.org/uzbekistan"
+  },
+  {
+    "id": "6",
+    "name": "EU Delegation to Uzbekistan",
+    "category": "strategic",
+    "description": "EU representative office working to develop economic and trade relations with Uzbekistan",
+    "website": "https://eeas.europa.eu"
+  },
+  {
+    "id": "7",
+    "name": "UzAuto Motors",
+    "category": "member",
+    "description": "Leading automobile manufacturer in Uzbekistan",
+    "website": "https://uzautomotors.com"
+  },
+  {
+    "id": "8",
+    "name": "Almalyk Mining & Metallurgical Complex",
+    "category": "member",
+    "description": "One of the largest mining and metallurgical complexes in Central Asia",
+    "website": "https://agmk.uz"
+  },
+  {
+    "id": "9",
+    "name": "Hamkorbank",
+    "category": "member",
+    "description": "One of the leading commercial banks of Uzbekistan, specializing in lending to small and medium businesses",
+    "website": "https://hamkorbank.uz"
+  },
+  {
+    "id": "10",
+    "name": "Rezidor Hotel Group",
+    "category": "member",
+    "description": "International hotel chain contributing to the development of the hospitality industry in Uzbekistan",
+    "website": "#"
+  },
+  {
+    "id": "11",
+    "name": "Ucell Telecommunications",
+    "category": "member",
+    "description": "Leading telecommunications operator developing digital infrastructure in Uzbekistan",
+    "website": "#"
+  },
+  {
+    "id": "12",
+    "name": "Textile Holding Uzbekistan",
+    "category": "member",
+    "description": "Major holding company exporting cotton and textile industry products",
+    "website": "#"
+  }
+]

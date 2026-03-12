@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Association of National Economic Cooperation of Uzbekistan",
+    "subtitle": "Towards economic development and strengthening international cooperation",
+    "date": "2026-03-10",
+    "image": "https://picsum.photos/seed/hero-en1/1600/800",
+    "href": "/en/about"
+  },
+  {
+    "id": "2",
+    "title": "Uzbekistan-China Economic Forum 2026",
+    "subtitle": "Strengthening trade and investment ties between the two nations",
+    "date": "2026-03-05",
+    "image": "https://picsum.photos/seed/hero-en2/1600/800",
+    "href": "/en/news/economic-forum-2026"
+  },
+  {
+    "id": "3",
+    "title": "Export Development Program Launched",
+    "subtitle": "Free consultations and support for over 100 enterprises",
+    "date": "2026-02-20",
+    "image": "https://picsum.photos/seed/hero-en3/1600/800",
+    "href": "/en/news/export-program"
+  }
+]

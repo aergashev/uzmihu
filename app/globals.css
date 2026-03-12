@@ -48,38 +48,38 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.488 0.243 264.376);
-  --primary-foreground: oklch(0.97 0.014 254.604);
-  --secondary: oklch(0.967 0.001 286.375);
-  --secondary-foreground: oklch(0.21 0.006 285.885);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.809 0.105 251.813);
-  --chart-2: oklch(0.623 0.214 259.815);
-  --chart-3: oklch(0.546 0.245 262.881);
-  --chart-4: oklch(0.488 0.243 264.376);
-  --chart-5: oklch(0.424 0.199 265.638);
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --card: #ffffff;
+  --card-foreground: #1a1a1a;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a1a;
+  --primary: #1e4fa3;
+  --primary-foreground: #ffffff;
+  --secondary: #3c74d8;
+  --secondary-foreground: #ffffff;
+  --muted: #f5f6f8;
+  --muted-foreground: #5f6b7a;
+  --accent: #eef4ff;
+  --accent-foreground: #1e4fa3;
+  --destructive: #c62828;
+  --border: #dde4ef;
+  --input: #dde4ef;
+  --ring: #3c74d8;
+  --chart-1: #1e4fa3;
+  --chart-2: #3c74d8;
+  --chart-3: #5a8ee8;
+  --chart-4: #7ca7ef;
+  --chart-5: #9fc0f6;
   --radius: 0.45rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.546 0.245 262.881);
-  --sidebar-primary-foreground: oklch(0.97 0.014 254.604);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #f5f6f8;
+  --sidebar-foreground: #1a1a1a;
+  --sidebar-primary: #1e4fa3;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #eef4ff;
+  --sidebar-accent-foreground: #1e4fa3;
+  --sidebar-border: #dde4ef;
+  --sidebar-ring: #3c74d8;
 }
 
 .dark {
@@ -120,10 +120,24 @@
   * {
     @apply border-border outline-ring/50;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
   html {
-    @apply font-sans;
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    background-image:
+      radial-gradient(
+        circle at top left,
+        rgba(60, 116, 216, 0.08),
+        transparent 28%
+      ),
+      linear-gradient(to bottom, #ffffff, #f7f9fc 40%, #ffffff 100%);
+  }
+  a,
+  button {
+    @apply transition-colors;
+  }
+  ::selection {
+    background: rgba(30, 79, 163, 0.18);
   }
 }

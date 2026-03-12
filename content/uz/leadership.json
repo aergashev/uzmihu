@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Jahongir Toshmatov",
+    "position": "Kengash Raisi",
+    "bio": "Iqtisodiyot fanlari doktori, 20 yildan ortiq davlat boshqaruvi va xalqaro iqtisodiy hamkorlik sohasidagi tajribaga ega mutaxassis.",
+    "image": "https://picsum.photos/seed/leader-uz1/400/500"
+  },
+  {
+    "id": "2",
+    "name": "Nilufar Hasanova",
+    "position": "Kengash Rais O'rinbosari",
+    "bio": "Xalqaro munosabatlar magistri, investitsion loyihalar va xalqaro savdo bo'yicha yetakchi mutaxassis. UNDP va Jahon banki bilan hamkorlik tajribasi.",
+    "image": "https://picsum.photos/seed/leader-uz2/400/500"
+  },
+  {
+    "id": "3",
+    "name": "Bobur Yusupov",
+    "position": "Ijroiya Direktor",
+    "bio": "MBA diplomiga ega, strategik rejalashtirish va tashkiliy boshqaruv sohasida 15 yillik ish tajribasi bor.",
+    "image": "https://picsum.photos/seed/leader-uz3/400/500"
+  },
+  {
+    "id": "4",
+    "name": "Dilnoza Ergasheva",
+    "position": "Xalqaro Hamkorlik Bo'limi Boshlig'i",
+    "bio": "Xalqaro iqtisodiy munosabatlar mutaxassisi, bir qator xalqaro tashkilotlar bilan muvaffaqiyatli hamkorlik shartnomalarini o'rnatgan.",
+    "image": "https://picsum.photos/seed/leader-uz4/400/500"
+  },
+  {
+    "id": "5",
+    "name": "Sherzod Mirzayev",
+    "position": "Ekspert Kengashi A'zosi",
+    "bio": "Moliya va bank sektori bo'yicha etakchi ekspert, xalqaro moliyaviy institutlar bilan keng aloqaga ega.",
+    "image": "https://picsum.photos/seed/leader-uz5/400/500"
+  },
+  {
+    "id": "6",
+    "name": "Maftuna Karimova",
+    "position": "Tahlil va Tadqiqot Bo'limi Boshlig'i",
+    "bio": "Iqtisodiy tahlil va prognozlash sohasidagi mutaxassis, bir qator xalqaro iqtisodiy nashrlarda maqolalari chop etilgan.",
+    "image": "https://picsum.photos/seed/leader-uz6/400/500"
+  }
+]

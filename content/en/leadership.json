@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Jahongir Toshmatov",
+    "position": "Chairman of the Board",
+    "bio": "Doctor of Economics, with over 20 years of experience in public administration and international economic cooperation.",
+    "image": "https://picsum.photos/seed/leader-en1/400/500"
+  },
+  {
+    "id": "2",
+    "name": "Nilufar Hasanova",
+    "position": "Deputy Chairperson of the Board",
+    "bio": "Master of International Relations, leading specialist in investment projects and international trade. Has experience working with UNDP and the World Bank.",
+    "image": "https://picsum.photos/seed/leader-en2/400/500"
+  },
+  {
+    "id": "3",
+    "name": "Bobur Yusupov",
+    "position": "Executive Director",
+    "bio": "MBA holder with 15 years of experience in strategic planning and organizational management.",
+    "image": "https://picsum.photos/seed/leader-en3/400/500"
+  },
+  {
+    "id": "4",
+    "name": "Dilnoza Ergasheva",
+    "position": "Head of International Cooperation Department",
+    "bio": "Specialist in international economic relations, successfully establishing cooperation agreements with numerous international organizations.",
+    "image": "https://picsum.photos/seed/leader-en4/400/500"
+  },
+  {
+    "id": "5",
+    "name": "Sherzod Mirzayev",
+    "position": "Expert Council Member",
+    "bio": "Leading expert in finance and banking, with extensive connections to international financial institutions.",
+    "image": "https://picsum.photos/seed/leader-en5/400/500"
+  },
+  {
+    "id": "6",
+    "name": "Maftuna Karimova",
+    "position": "Head of Analysis and Research Department",
+    "bio": "Specialist in economic analysis and forecasting, with articles published in a number of international economic publications.",
+    "image": "https://picsum.photos/seed/leader-en6/400/500"
+  }
+]

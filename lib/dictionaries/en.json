@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "news": "News",
+    "partnership": "Partnership",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "menu": "Menu"
+  },
+  "hero": {
+    "learnMore": "Learn More"
+  },
+  "home": {
+    "latestNews": "Latest News",
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "aboutSection": {
+      "badge": "About Us",
+      "title": "Association of National Economic Cooperation of Uzbekistan",
+      "description": "The Association carries out activities aimed at developing the economy of Uzbekistan, strengthening international cooperation and attracting investments. We serve as a bridge between the public and private sectors.",
+      "mission": "Mission",
+      "missionText": "Protecting national economic interests and developing international cooperation",
+      "activity": "Activities",
+      "activityText": "Attracting investments, strengthening trade relations and supporting economic reforms",
+      "cta": "Read More"
+    },
+    "leadershipSection": {
+      "title": "Leadership",
+      "subtitle": "Association leadership team",
+      "viewAll": "View All Leaders"
+    },
+    "partnersSection": {
+      "title": "Partners & Members",
+      "subtitle": "Organizations working together with us"
+    },
+    "gallerySection": {
+      "title": "Photo Gallery",
+      "subtitle": "Images from the association's activities",
+      "viewAll": "Open Gallery"
+    },
+    "contactSection": {
+      "title": "Get in Touch",
+      "description": "Have questions? Want to get more information? Contact us and we will respond shortly.",
+      "cta": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Association of National Economic Cooperation of Uzbekistan",
+    "missionTitle": "Mission & Goals",
+    "goalsTitle": "Main Goals",
+    "activitiesTitle": "Areas of Activity",
+    "leadershipTitle": "Leadership"
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "Latest news and events of the association",
+    "readMore": "Read More",
+    "share": "Share",
+    "back": "Back to News",
+    "noNews": "No news found",
+    "publishedOn": "Published on"
+  },
+  "partnership": {
+    "title": "Partnership",
+    "subtitle": "Partners and members of the association",
+    "strategicTitle": "Strategic Partners",
+    "strategicDesc": "Strategic partnership with government and international organizations",
+    "membersTitle": "Association Members",
+    "membersDesc": "Organizations and enterprises participating in the association's activities",
+    "visitWebsite": "Visit Website"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Photos from the association's events and activities",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in Touch",
+    "addressTitle": "Address",
+    "addressValue": "Tashkent, Mustaqillik Street, 5",
+    "phoneTitle": "Phone",
+    "phoneValue": "+998 71 239 88 88",
+    "emailTitle": "Email",
+    "emailValue": "info@uzmihu.uz",
+    "hoursTitle": "Working Hours",
+    "hoursValue": "Monday–Friday: 9:00 AM – 6:00 PM",
+    "formTitle": "Contact Form",
+    "formDesc": "Write your question and we will respond as soon as possible.",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "e.g. John Smith",
+    "organizationLabel": "Organization",
+    "organizationPlaceholder": "e.g. ABC Company Ltd.",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "example@mail.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your question or suggestion...",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "successTitle": "Successfully Sent!",
+    "successMsg": "Your message has been received. We will get back to you shortly.",
+    "errorMsg": "An error occurred. Please try again.",
+    "backBtn": "Back"
+  },
+  "footer": {
+    "description": "Association of National Economic Cooperation of Uzbekistan — an organization supporting national economic development and international cooperation.",
+    "rights": "All rights reserved",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "address": "Tashkent, Mustaqillik Street, 5",
+    "phone": "+998 71 239 88 88",
+    "email": "info@uzmihu.uz"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "news": "Yangiliklar",
+    "partnership": "Hamkorlik",
+    "gallery": "Galereya",
+    "contact": "Aloqa",
+    "menu": "Menyu"
+  },
+  "hero": {
+    "learnMore": "Batafsil"
+  },
+  "home": {
+    "latestNews": "So'nggi yangiliklar",
+    "readMore": "Batafsil",
+    "viewAll": "Hammasini ko'rish",
+    "aboutSection": {
+      "badge": "Biz haqimizda",
+      "title": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi",
+      "description": "Assotsiatsiya O'zbekiston iqtisodiyotini rivojlantirishga, xalqaro hamkorlikni kuchaytirishga va investitsiyalarni jalb etishga qaratilgan faoliyat olib boradi. Biz davlat va xususiy sektor o'rtasidagi ko'prik vazifasini bajaramiz.",
+      "mission": "Missiya",
+      "missionText": "Milliy iqtisodiy manfaatlarni himoya qilish va xalqaro hamkorlikni rivojlantirish",
+      "activity": "Faoliyat",
+      "activityText": "Investitsiyalarni jalb etish, savdo munosabatlarini kuchaytirish va iqtisodiy islohotlarni qo'llab-quvvatlash",
+      "cta": "Batafsil o'qish"
+    },
+    "leadershipSection": {
+      "title": "Rahbariyat",
+      "subtitle": "Assotsiatsiya rahbariyati",
+      "viewAll": "Barcha rahbarlarni ko'rish"
+    },
+    "partnersSection": {
+      "title": "Hamkorlar va a'zolar",
+      "subtitle": "Biz bilan birgalikda ishlaydigan tashkilotlar"
+    },
+    "gallerySection": {
+      "title": "Fotogalereya",
+      "subtitle": "Assotsiatsiyaning faoliyatidan tasvirlar",
+      "viewAll": "Galereyani ko'rish"
+    },
+    "contactSection": {
+      "title": "Biz bilan bog'laning",
+      "description": "Savollaringiz bormi? Qo'shimcha ma'lumot olmoqchimisiz? Bizga murojaat qiling.",
+      "cta": "Murojaat qilish"
+    }
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "subtitle": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi",
+    "missionTitle": "Missiya va Maqsadlar",
+    "goalsTitle": "Asosiy maqsadlar",
+    "activitiesTitle": "Faoliyat yo'nalishlari",
+    "leadershipTitle": "Rahbariyat"
+  },
+  "news": {
+    "title": "Yangiliklar",
+    "subtitle": "Assotsiatsiyaning so'nggi yangiliklari va tadbirlari",
+    "readMore": "Batafsil o'qish",
+    "share": "Ulashish",
+    "back": "Yangiliklarga qaytish",
+    "noNews": "Yangiliklar topilmadi",
+    "publishedOn": "Nashr etildi"
+  },
+  "partnership": {
+    "title": "Hamkorlik",
+    "subtitle": "Assotsiatsiyaning hamkorlari va a'zolari",
+    "strategicTitle": "Strategik hamkorlar",
+    "strategicDesc": "Hukumat va xalqaro tashkilotlar bilan strategik sheriklik",
+    "membersTitle": "Assotsiatsiya a'zolari",
+    "membersDesc": "Assotsiatsiya faoliyatida qatnashadigan tashkilotlar va korxonalar",
+    "visitWebsite": "Saytga o'tish"
+  },
+  "gallery": {
+    "title": "Fotogalereya",
+    "subtitle": "Assotsiatsiyaning tadbirlari va faoliyatidan fotolavhalar",
+    "close": "Yopish",
+    "prev": "Oldingi",
+    "next": "Keyingi"
+  },
+  "contact": {
+    "title": "Aloqa",
+    "subtitle": "Biz bilan bog'laning",
+    "addressTitle": "Manzil",
+    "addressValue": "Toshkent sh., Mustaqillik ko'chasi, 5-uy",
+    "phoneTitle": "Telefon",
+    "phoneValue": "+998 71 239 88 88",
+    "emailTitle": "Elektron pochta",
+    "emailValue": "info@uzmihu.uz",
+    "hoursTitle": "Ish vaqti",
+    "hoursValue": "Dushanba–Juma: 9:00 – 18:00",
+    "formTitle": "Murojaat formi",
+    "formDesc": "Savolingizni yozing, biz tez orada javob beramiz.",
+    "nameLabel": "Ism va Familiya",
+    "namePlaceholder": "Misol: Alisher Karimov",
+    "organizationLabel": "Tashkilot nomi",
+    "organizationPlaceholder": "Misol: Karimov va Sheriklari MChJ",
+    "emailLabel": "Elektron pochta",
+    "emailPlaceholder": "example@mail.com",
+    "phoneLabel": "Telefon raqami",
+    "phonePlaceholder": "+998 90 123 45 67",
+    "messageLabel": "Xabar",
+    "messagePlaceholder": "Savolingizni yoki taklifingizni yozing...",
+    "submit": "Yuborish",
+    "submitting": "Yuborilmoqda...",
+    "successTitle": "Muvaffaqiyatli yuborildi!",
+    "successMsg": "Murojaatingiz qabul qilindi. Biz siz bilan tez orada bog'lanamiz.",
+    "errorMsg": "Xato yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "backBtn": "Orqaga"
+  },
+  "footer": {
+    "description": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi — milliy iqtisodiy rivojlanish va xalqaro hamkorlikni qo'llab-quvvatlash tashkiloti.",
+    "rights": "Barcha huquqlar himoyalangan",
+    "quickLinks": "Tezkor havolalar",
+    "contactInfo": "Aloqa ma'lumotlari",
+    "address": "Toshkent sh., Mustaqillik ko'chasi, 5-uy",
+    "phone": "+998 71 239 88 88",
+    "email": "info@uzmihu.uz"
+  }
+}

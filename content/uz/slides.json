@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "O'zbekiston Milliy Iqtisodiy Hamkorlik Assotsiatsiyasi",
+    "subtitle": "Iqtisodiy rivojlanish va xalqaro hamkorlikni kuchaytirish yo'lida",
+    "date": "2026-03-10",
+    "image": "https://picsum.photos/seed/hero-uz1/1600/800",
+    "href": "/uz/about"
+  },
+  {
+    "id": "2",
+    "title": "O'zbekiston-Xitoy Iqtisodiy Forumi 2026",
+    "subtitle": "Ikki davlat o'rtasidagi savdo va investitsiya aloqalarini mustahkamlash",
+    "date": "2026-03-05",
+    "image": "https://picsum.photos/seed/hero-uz2/1600/800",
+    "href": "/uz/news/iqtisodiy-forum-2026"
+  },
+  {
+    "id": "3",
+    "title": "Eksport salohiyatini oshirish dasturi ishga tushirildi",
+    "subtitle": "100 dan ortiq korxona uchun bepul konsultatsiya va qo'llab-quvvatlash",
+    "date": "2026-02-20",
+    "image": "https://picsum.photos/seed/hero-uz3/1600/800",
+    "href": "/uz/news/eksport-dasturi"
+  }
+]

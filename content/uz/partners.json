@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "O'zbekiston Investitsiyalar va Tashqi Savdo Vazirligi",
+    "category": "strategic",
+    "description": "Investitsiyalar va tashqi savdoni rivojlantirishga mas'ul asosiy davlat idorasi",
+    "website": "https://mift.uz"
+  },
+  {
+    "id": "2",
+    "name": "O'zbekiston Iqtisodiyot va Moliya Vazirligi",
+    "category": "strategic",
+    "description": "Mamlakatning iqtisodiy siyosatini belgilovchi va moliyaviy barqarorlikni ta'minlovchi vazirlik",
+    "website": "https://mf.uz"
+  },
+  {
+    "id": "3",
+    "name": "O'zbekiston Milliy Savdo Palatasi",
+    "category": "strategic",
+    "description": "Tadbirkorlikni qo'llab-quvvatlash va savdo munosabatlarini rivojlantirish milliy tashkiloti",
+    "website": "https://chamber.uz"
+  },
+  {
+    "id": "4",
+    "name": "Jahon Banki O'zbekiston Vakolatxonasi",
+    "category": "strategic",
+    "description": "O'zbekistonda iqtisodiy rivojlanish loyihalarini qo'llab-quvvatlovchi xalqaro moliyaviy institutning mahalliy vakolatxonasi",
+    "website": "https://worldbank.org"
+  },
+  {
+    "id": "5",
+    "name": "UNDP O'zbekiston",
+    "category": "strategic",
+    "description": "Barqaror rivojlanish va iqtisodiy imkoniyatlarni kengaytirish bo'yicha BMT dasturining O'zbekistondagi vakolatxonasi",
+    "website": "https://undp.org/uzbekistan"
+  },
+  {
+    "id": "6",
+    "name": "Yevroittifoq Delegatsiyasi O'zbekiston",
+    "category": "strategic",
+    "description": "O'zbekiston bilan iqtisodiy va savdo aloqalarini rivojlantirish uchun ishlovchi YI vakolatxonasi",
+    "website": "https://eeas.europa.eu"
+  },
+  {
+    "id": "7",
+    "name": "UzAuto Motors",
+    "category": "member",
+    "description": "O'zbekistonning avtomobil sanoatining yetakchi ishlab chiqaruvchisi",
+    "website": "https://uzautomotors.com"
+  },
+  {
+    "id": "8",
+    "name": "Almalyk MMK",
+    "category": "member",
+    "description": "O'rta Osiyoning eng yirik tog'-metallurgiya kombinatlaridan biri",
+    "website": "https://agmk.uz"
+  },
+  {
+    "id": "9",
+    "name": "Hamkorbank",
+    "category": "member",
+    "description": "O'zbekistonning yetakchi tijorat banklaridan biri, kichik va o'rta biznesni kreditlashga ixtisoslashgan",
+    "website": "https://hamkorbank.uz"
+  },
+  {
+    "id": "10",
+    "name": "Rezidor Hotel Group",
+    "category": "member",
+    "description": "O'zbekistonda mehmondo'stlik sanoatini rivojlantirishga hissa qo'shayotgan xalqaro mehmonxona zanjiri",
+    "website": "#"
+  },
+  {
+    "id": "11",
+    "name": "Ucell Telekomunikatsiya",
+    "category": "member",
+    "description": "O'zbekistonda raqamli infratuzilmani rivojlantirayotgan yetakchi telekommunikatsiya operatori",
+    "website": "#"
+  },
+  {
+    "id": "12",
+    "name": "Textile Holding Uzbekistan",
+    "category": "member",
+    "description": "Paxta va to'qimachilik sanoatida yirik eksport qiluvchi holding kompaniya",
+    "website": "#"
+  }
+]
