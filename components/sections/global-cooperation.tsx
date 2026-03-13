@@ -32,15 +32,15 @@ const TASHKENT = { lat: 41.2995, lng: 69.2401 };
 
 const destinations = [
   { lat: 39.9042, lng: 116.4074 }, // Beijing
-  { lat: 41.0082, lng: 28.9784 }, // Istanbul
-  { lat: 40.7128, lng: -74.006 }, // New York
-  { lat: 51.5074, lng: -0.1278 }, // London
-  { lat: 24.7136, lng: 46.6753 }, // Riyadh
-  { lat: 35.6762, lng: 139.6503 }, // Tokyo
-  { lat: 52.2297, lng: 21.0122 }, // Warsaw
-  { lat: 3.139, lng: 101.6869 }, // Kuala Lumpur
-  { lat: -35.2809, lng: 149.13 }, // Canberra
-  { lat: 33.6844, lng: 73.0479 }, // Islamabad
+  { lat: 30.0082, lng: 28.9784 }, // Istanbul
+  { lat: 30.7128, lng: -78.006 }, // New York
+  { lat: 47.5074, lng: -1.0278 }, // London
+  { lat: 8.7136, lng: 49.6753 }, // Riyadh
+  { lat: 20.6762, lng: 150.6503 }, // Tokyo
+  { lat: 45.2297, lng: 21.0122 }, // Warsaw
+  { lat: -13.139, lng: 108.6869 }, // Kuala Lumpur
+  { lat: -55.2809, lng: 160.13 }, // Canberra
+  { lat: 25.6844, lng: 73.0479 }, // Islamabad
 ];
 
 interface GlobalCooperationSectionProps {
